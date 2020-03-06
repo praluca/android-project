@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Sent Messages"
+        android:id="@+id/sent_messages_option"></item>
+    <item
+        android:title="Log out"
+        android:id="@+id/logout_option"></item>
+    <item android:title="Info"
+        android:id="@+id/info_option"></item>
+    <item android:title="Istoric messaje"
+        android:id="@+id/istoric_mesaje_option"></item>
+    <item android:title="Grafic"
+        android:id="@+id/grafic_option"></item>
+    <item android:title="Maps"
+        android:id="@+id/maps_option"></item>
+    <item android:title="Settings"
+        android:id="@+id/settings_option"></item>
+    <item android:title="Users"
+        android:id="@+id/users_option"></item>
+</menu>

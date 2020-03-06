@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">ProjectAndroid</string>
+    <string-array name="spinner_items">
+        <item>Romania</item>
+        <item>Bulgaria</item>
+        <item>Franta</item>
+        <item>Olanda</item>
+        <item>Marea Britanie</item>
+        <item>Italia</item>
+        <item>Rusia</item>
+    </string-array>
+    <string name="aboutContent">
+          Pt mai multe informatii, accesati linkul de mai jos https://codelabs.developers.google.com/android-training/
+\n\n
+Aceasta aplicatie a fost realizata strict in scop didactic.:))
+\n\n
+<b>Aceasta include:</b>
+\n\n
+<b><i>Login/Register</i></b>  In aceasta parte utilizatorul este rugat sa ofere cateva detalii cu caracter personal(nume, prenume,telefon, tara, sexul) in cazul in care acesta nu a  fost inregistrat.:))
+\n\n
+<b><i>Contacte</i></b>   In aceasta sectiune se vor incarca toate contactele utilizatorului din lista de contacte pe care o are in telefon.
+\n\n
+<b><i>Mesaje</i></b>  Asa cum spune si  titlul, aici se realizeaza efectiv trimiterea mesajelor.
+        \n\n
+<b><i>Istoric mesaje</i></b> In aceasta sectiune utilizatorul va putea sa vada intreaga lista de mesaje, aceasta reprezentand backup-ul aplicatiei.
+    </string>
+    <string name="contacts_tv_contacts_list">Contacts List</string>
+    <string name="info_tv_about_us">About Us</string>
+    <string name="info_iv_descrption_image2">Image2</string>
+    <string name="info_iv_description_image1">Image1</string>
+    <string name="message_btn_send">Send</string>
+    <string name="message_et_enter_a_message">Enter a message</string>
+    <string name="message_btn_choose_a_message">Choose a message</string>
+    <string name="registration_hint_firstname">Firstname</string>
+    <string name="registration_hint_lastname">Lastname</string>
+    <string name="registration_hint_email">Email</string>
+    <string name="registration_hint_password">Password</string>
+    <string name="registration_hint_confirm_password">Confirm password</string>
+    <string name="registration_tv_country">Country</string>
+    <string name="registration_tv_sex">Sex</string>
+    <string name="registration_rb_feminin">Feminin</string>
+    <string name="registration_rb_masculin">Masculin</string>
+    <string name="registration_hint_phone">Phone</string>
+    <string name="registration_btn_sing_in">Sing in</string>
+    <string name="lv_rows_text">text</string>
+    <string name="login_hint_username">Username</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_hint_phone">Phone</string>
+    <string name="btn_log_in">Log in</string>
+    <string name="login_tv_create_your_account">Create your Account</string>
+    <string name="label_android">Android</string>
+    <string name="main_activity_message">Te ai conectat cu succes</string>
+    <string name="main_activity_username_error">Username ul este gresit</string>
+    <string name="main_activity_password_error">Parola este gresita</string>
+    <string name="main_activity_phone_error">Telefonul este gresit</string>
+    <string name="registration_firstaname_error">Introduceti un prenume valid</string>
+    <string name="registration_lastname_error">Introduceti un nume valid</string>
+    <string name="registration_email_error">Introduceti un email valid</string>
+    <string name="registration_password_error">Introduceti o parola corecta</string>
+    <string name="registration_confirm_password_error">Cele 2 parole nu corespund</string>
+    <string name="registration_phone_error">Telefonul este gresit</string>
+    <string name="sent_messages_tv_istoric_mesaje">Istoric Mesaje</string>
+    <string name="message_sent">Message sent</string>
+    <string name="sentMesages_btn_text_sent_messages">Sent Messages</string>
+    <string name="sent_messages_btn_text_received_messages">Received Messages</string>
+    <string name="def_message_hello_title">Say Hello</string>
+    <string name="def_message_hello_content">Hello!</string>
+    <string name="def_message_title_bye">Say Goodbye</string>
+    <string name="def_message_content_bye">Goodbye!!</string>
+    <string name="def_message_title_busy">Bussy</string>
+    <string name="def_message_bussy_content">Sorry, I can\'t speak right now. I will send you a message as soon as I can</string>
+    <string name="def_message_birthday_title">Birthday</string>
+    <string name="def_message_content_birthday">Happy birthday!I wish you all the best</string>
+    <string name="custom_adapter_tv_text2">text2</string>
+    <string name="custom_adapter_tv_text1">text1</string>
+    <string name="custom_adapter_image_description">image</string>
+    <string name="lv_rows_description_image_lv">image_lv</string>
+    <string name="grafic_tv_titlu">Proportia utilizatorilor pe fircare tara</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="settings_btn_update_title">Update Your Account</string>
+    <string name="settings_btn_delete_title">Delete Your Account</string>
+    <string name="settings_btn_change_title">Change Your Account Picture</string>
+    <string name="settings_username_hint">Username</string>
+    <string name="settings_phone_hint">Phone</string>
+    <string name="settings_avatar">avatar</string>
+    <string name="textview_item_recyclerview">TextView</string>
+    <string name="grafic_btn_get_result_title">get result</string>
+    <string name="grafic_et_hint">Introduceti tara</string>
+    <string name="istoric_mesaje_btn_upload_title">Upload</string>
+    <string name="istoric_mesaje_btn_upload_from_title">Upload From</string>
+    <string name="istoric_mesaje_btn_save_title">Save</string>
+    <string name="Romania_title">Romania</string>
+    <string name="Olanda_title">Olanda</string>
+    <string name="Rusia_title">Rusia</string>
+    <string name="Bulgaria_title">Bulgaria</string>
+    <string name="Franta_title">Franta</string>
+    <string name="MareaBritanie_title">Marea Britanie</string>
+    <string name="Italia_title">Italia</string>
+    <string name="istoric_mesaje_toast_message">both string are equal</string>
+    <string name="istoric_mesaje_toast_error_message">there is a problem</string>
+    <string name="maps_current_position">Your Current Position</string>
+    <string name="maps_toast_error">permission denied</string>
+    <string name="settings_toast_error">Something went wrong</string>
+    <string name="main_toast_message_error">Nu exista user ul</string>
+</resources>

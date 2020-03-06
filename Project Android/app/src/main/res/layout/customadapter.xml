@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_cursoradapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@+id/iv_contacts"
+        android:layout_toRightOf="@+id/iv_contacts"
+        android:text="@string/custom_adapter_tv_text1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_cursoradapter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cursoradapter"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/custom_adapter_tv_text2" />
+
+    <ImageView
+        android:id="@+id/iv_contacts"
+        android:layout_width="70dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/custom_adapter_image_description"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+</RelativeLayout>
